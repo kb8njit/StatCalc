@@ -1,6 +1,6 @@
 FROM python:3.8
 
-ADD StatCalc /StatCalc
+ADD . .
 
 RUN pip install --upgrade pip
 
